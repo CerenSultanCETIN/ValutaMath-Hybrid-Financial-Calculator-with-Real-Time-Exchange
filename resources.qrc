@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>calculator.icon.png</file>
+    </qresource>
+    <qresource prefix="/-">
+        <file>doubleArrow128.png</file>
+    </qresource>
+    <qresource prefix="/+"/>
+</RCC>
