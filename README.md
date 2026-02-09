@@ -37,7 +37,7 @@ Resource System (QRC): Embedded assets management for icons and design elements.
 
 💻 Installation / Kurulum
 Clone the repository:
-git clone https://github.com/yourusername/ValutaMath.git
+git clone:  https://github.com/CerenSultanCETIN/ValutaMath-Hybrid-Financial-Calculator-with-Real-Time-Exchange
 Open in Qt Creator: Select the CMakeLists.txt file.
 Configure Build: Ensure the Network module is enabled in your Qt kit.
 Run: Build and execute the application.
