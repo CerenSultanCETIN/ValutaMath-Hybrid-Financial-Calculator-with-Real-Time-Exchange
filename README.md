@@ -1,7 +1,8 @@
 📊 ValutaMath: Hybrid Financial Calculator & Real-Time Exchange Engine
 
 <img width="229" height="422" alt="image" src="https://github.com/user-attachments/assets/514e8d8a-9f96-4437-9150-0ddcfb598311" />
-<img width="236" height="440" alt="image" src="https://github.com/user-attachments/assets/d3dd3e19-2bf8-4d28-8ac1-92c769710fc2" />
+<img width="227" height="423" alt="image" src="https://github.com/user-attachments/assets/a77e2404-98f5-40c0-93f0-e587c96c734a" />
+
 
 
 ValutaMath is a high-performance, cross-platform hybrid application developed with C++17 and Qt 6 Framework. It merges a sophisticated mathematical calculation engine with an asynchronous financial data retrieval system. Designed with an Apple-inspired minimalist aesthetic, it offers a seamless user experience for both complex arithmetic and real-time currency conversion.
