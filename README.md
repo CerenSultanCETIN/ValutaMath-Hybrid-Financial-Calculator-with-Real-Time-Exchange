@@ -1,43 +1,44 @@
-📊 FinCalc-Live: Hybrid Financial Calculator & Real-Time Exchange Engine
-FinCalc-Live is a high-performance, hybrid desktop application developed with C++17 and Qt 6 Framework. It seamlessly integrates a traditional mathematical engine with an asynchronous financial data system. Inspired by Apple's minimalist aesthetic, it provides real-time currency conversion alongside complex arithmetic capabilities.
+📊 ValutaMath: Hybrid Financial Calculator & Real-Time Exchange Engine
+<img width="229" height="422" alt="image" src="https://github.com/user-attachments/assets/514e8d8a-9f96-4437-9150-0ddcfb598311" />
+<img width="236" height="440" alt="image" src="https://github.com/user-attachments/assets/d3dd3e19-2bf8-4d28-8ac1-92c769710fc2" />
+
+
+ValutaMath is a high-performance, cross-platform hybrid application developed with C++17 and Qt 6 Framework. It merges a sophisticated mathematical calculation engine with an asynchronous financial data retrieval system. Designed with an Apple-inspired minimalist aesthetic, it offers a seamless user experience for both complex arithmetic and real-time currency conversion.
 
 🚀 Key Features / Öne Çıkan Özellikler
-Hybrid Calculation Engine: Perform complex arithmetic with paranthesis support and operator precedence (BODMAS/PEMDAS). / Karmaşık işlemleri parantez desteği ve işlem önceliğiyle çözer.
+Hybrid Calculation Engine: Execute complex arithmetic operations with parenthesis support and mathematical operator precedence (BODMAS/PEMDAS).
 
-Live Currency Conversion: Fetches real-time exchange rates via FloatRates API using asynchronous HTTP requests. / FloatRates API üzerinden asenkron HTTP istekleri ile anlık kur verilerini çeker.
+Real-Time API Integration: Fetches live currency data via the FloatRates API using asynchronous HTTP requests.
 
-Intelligent Input Validation: Smart algorithms to prevent sequential operator entries (e.g., 8 + x -) and ensure valid mathematical expressions. / Ard arda operatör girişini engelleyen akıllı kontrol mekanizması.
+Intelligent Input Validation: Prevents sequential operator entries (e.g., 8 + x -) and maintains expression integrity.
 
-Automated Triggers: Instant conversion updates upon value changes or currency selection—no extra button clicks required. / Miktar veya birim değiştiği anda otomatik döviz hesaplama.
+Automated Triggers: Real-time conversion triggering upon amount change or currency selection without additional button clicks.
 
-Dynamic UI Navigation: Smooth transitions between the standard calculator and the financial converter with state preservation. / Modüller arasında akıcı geçiş ve form yönetimi.
+Dynamic UI Navigation: Seamless transition between the standard calculator and the financial converter with state preservation.
 
 🛠 Technical Stack / Kullanılan Teknolojiler
-Language: C++17 (Modern OOP Principles)
-
-Framework: Qt 6.10 (Core, Widgets, Network modules)
-
-Asynchronous Networking: Utilized QNetworkAccessManager for non-blocking API communication.
-
-Data Parsing: High-speed JSON processing with QJsonDocument and QJsonObject.
-
-Build System: CMake & Ninja for optimized compilation.
+Technology,Usage Area
+C++17,"Core logic, memory management, and OOP-based modular design."
+Qt 6 Framework,GUI development (Widgets) and asynchronous event loop management.
+Qt Network,RESTful API consumption using QNetworkAccessManager.
+JSON Parsing,High-speed data deserialization with QJsonDocument.
+CMake & Ninja,Cross-platform build orchestration and optimized compilation.
 
 📁 Project Architecture / Proje Mimarisi
-MainWindow: Handles the primary arithmetic logic and standard calculator interface.
+MainWindow: Manages the primary arithmetic engine and user interaction for standard calculations.
 
-CurrentlyConverter: Manages RESTful API interactions, currency logic, and hybrid calculation integration.
+CurrentlyConverter: A specialized module handling the lifecycle of network requests, JSON parsing, and financial logic.
 
-Signals & Slots: Implemented Qt’s core observer pattern for robust asynchronous event management.
+Signals & Slots: Implemented Qt’s core observer pattern for decoupled communication between UI components and the network manager.
+
+Resource System (QRC): Embedded assets management for icons and design elements.
 
 💻 Installation / Kurulum
-Clone the repository: git clone https://github.com/yourusername/FinCalc-Live.git
-
-Open CMakeLists.txt in Qt Creator.
-
-Ensure your kit includes the Network module.
-
-Build and Run.
+Clone the repository:
+git clone https://github.com/yourusername/ValutaMath.git
+Open in Qt Creator: Select the CMakeLists.txt file.
+Configure Build: Ensure the Network module is enabled in your Qt kit.
+Run: Build and execute the application.
 
 ✍️ Developer's Note / Geliştirici Notu
-This project was developed to showcase advanced skills in asynchronous networking, API consumption, and Modern UI/UX design. It represents the engineering standards and technical rigor I have cultivated during my tenure as a Candidate Embedded Software Engineer at STG Mühendislik.
+This project was developed to demonstrate technical proficiency in asynchronous networking, API consumption, and Modern UI design. It reflects the engineering standards and technical rigor I have embraced as a Candidate Embedded Software Engineer at STG Mühendislik and as a student at Ostim Technical University.
